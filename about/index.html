@@ -18,7 +18,7 @@
 
 
     <title>About | Dailun&#39;s blog</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="/medias/parachute-box-solid.svg">
     
 
 
@@ -62,7 +62,7 @@
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <img src="/medias/newlogo.png" class="logo-img" alt="LOGO">
+                    <img src="/medias/pen-clip-solid.svg" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">Dailun&#39;s blog</span>
                 </a>
@@ -177,7 +177,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="/medias/newlogo.png" class="logo-img circle responsive-img">
+        <img src="/medias/pen-clip-solid.svg" class="logo-img circle responsive-img">
         
         <div class="logo-name">Dailun&#39;s blog</div>
         <div class="logo-desc">
@@ -416,7 +416,7 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">3</a></span>
+    <span class="count"><a href="/">4</a></span>
     <span class="name">Posts</span>
 </div>
 
@@ -436,7 +436,7 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">3</a></span>
+    <span class="count"><a href="/">4</a></span>
     <span class="name">Posts</span>
 </div>
 
@@ -447,7 +447,7 @@
 
                                 </div>
                                 <div class="title">Dailun Li</div>
-                                <div class="career">Student @ McGill University</div>
+                                <div class="career">Student @ UC Berkeley</div>
                                 <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
                                     
     <a href="https://github.com/lidl2019" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
@@ -584,7 +584,7 @@
                 name: 'Number of posts',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,3,0,0,0,0,0,0,0,0,0,0],
+                data: [0,0,3,0,0,0,0,0,0,0,0,0,1],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -1173,6 +1173,14 @@ $(function () {
     
 
     <!-- 鼠标星星特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
+            }
+        </script>
     
 
      
